@@ -1,13 +1,15 @@
-# R&D: on Perplexity library (closed)
-# v1.2 - Works well with minor issue (cannot convert lowecase to upper due to Windows restrictions)
+# Copyright 2023 Luis Emilio Sánchez Ramos
+# Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+# Update v1.2 - Works well with minor issue (cannot convert lowecase to upper due to Windows restrictions)
 
 import xml.etree.ElementTree as ET
 import os, datetime, shutil
 import pandas as pd
 
 # Define the folder path (input) and *report* output path (output)
-folder_path = r'C:\Users\Sanchezrl\Downloads\WORK DOWNLOADS\1. Facturas\autoRenameAux'
-output_path = r'C:\BECARI@\PENDIENTES 2023\1.2 FACTURAS\pwrQry_facturas\xProcesar'
+folder_path = r'C:\User\path'
+output_path = r'C:\User\path'
 
 # Create a dictionary to store the count of each UUID found in the XML files
 UUID_count = {}
