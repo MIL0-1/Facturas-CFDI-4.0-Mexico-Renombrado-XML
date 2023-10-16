@@ -5,7 +5,7 @@ Es probable que hayas notado que hay muchas pequeñas tareas de tu trabajo que c
 Me refiero a los pequeños detalles, como abrir archivos, leerlos, validarlos, renombrarlos, etc.
 
 En el caso de l@s que trabajamos con facturas CFDI -por cobrar, por pagar, de nómina, etc.- solemos encontrarnos que quienes las emiten (o su software de facturación) lo hacen de una manera no estandarizada que
-incluso puedo no decirnos nada acerca de los datos que contiene o, peor aún, inducirnos al error. Más aún si esto no obliga a manipularlas una por una de manera "manual", lo que también nos quita mucho tiempo 
+incluso puede no decirnos nada acerca de los datos que contiene o, peor aún, inducirnos al error. Más aún si esto no obliga a manipularlas una por una de manera "manual", lo que también nos quita mucho tiempo 
 para otras cosas más importantes (¡como descansar los ojos!)
 
 En México, el SAT volvió obligatorio durante mayo de 2023 el uso de las facturas electrónicas (CFDI) en su versión 4.0. Lo cual facilita su procesamiento y análisis con Excel (Power Query) pero también con Python.
@@ -23,10 +23,14 @@ Instrucciones:
 3) El folder_path es la ruta a tu carpeta con los archivos a procesar. Debes copiarlos del explorador de archivos y pegarlos entre las comillas simples ('').
    Ejemplo: r'C:\Users\aquí va tu ruta al folder con los archivos' (Aquí mismo estarán los archivos renombrados).
 5) Define el output_path para el reporte de Excel, que puede ser el mismo de arriba o donde tu quieras.
-6) Ejecuta el código, valida en el reporte de Excel que todo haya salido bien, y carga tus archivos ya renombrados a tu Excel con Power Query, o a tuSQL, tu ERP, etc.
+6) Ejecuta el código, valida en el reporte de Excel que todo haya salido bien, y carga tus archivos ya renombrados a tu Excel con Power Query, o a tu SQL, tu ERP, etc.
 
 NOTAS FINALES:
 -También cree una versión para renombrar las versiones PDF de estos mismos archivos XML, y funciona casi a la perfección (PDF es un formato muy conflictivo por desgracia) aunque de manera un poco más lenta.
--Siéntete libre de proponer mejoras al código porque, de hecho, podría ampliarse su alcance mucho más allá de su UUID.
+
+-Siéntete libre de proponer mejoras al código porque, de hecho, podría ampliarse su alcance mucho más allá de su UUID. Y porque no soy un experto en programación, es más: no sabía nada y a través de meses, durante mis tiempos libres en el trabjo, pude desarrollar esto con ayuda de herramientas de IA y la documentación oficial de Python.
+
 -El código tiene notas en inglés, pues así suelo trabajar (es más conciso que el español) y porque es el lenguaje que usa Python.
--Este código tiene una licencia opensource por lo que puedes hacer con ello casi lo que quieras...sólo no olvides darme el crédito.
+
+-Este código tiene una licencia opensource por lo que puedes hacer con ello casi lo que quieras...sólo no olvides darme crédito.
+
