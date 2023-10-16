@@ -1,4 +1,5 @@
--Windows-
+-Adaptado a Windows-
+
 HOLA AMIGO@ GODÍN!
 Es probable que hayas notado que hay muchas pequeñas tareas de tu trabajo que consumen mucho tiempo, a pesar de que podrían no ser las más importantes de tu día a día.
 Me refiero a los pequeños detalles, como abrir archivos, leerlos, validarlos, renombrarlos, etc.
