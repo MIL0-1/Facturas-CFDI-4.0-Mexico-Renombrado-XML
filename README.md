@@ -6,7 +6,7 @@ Me refiero a los pequeños detalles, como abrir archivos, leerlos, validarlos, r
 
 En el caso de l@s que trabajamos con facturas CFDI -por cobrar, por pagar, de nómina, etc.- solemos encontrarnos que quienes las emiten (o su software de facturación) lo hacen de una manera no estandarizada que
 incluso puede no decirnos nada acerca de los datos que contiene o, peor aún, inducirnos al error. Más aún si esto no obliga a manipularlas una por una de manera "manual", lo que también nos quita mucho tiempo 
-para otras cosas más importantes (¡como descansar los ojos!)
+para otras cosas más importantes.
 
 En México, el SAT volvió obligatorio durante mayo de 2023 el uso de las facturas electrónicas (CFDI) en su versión 4.0. Lo cual facilita su procesamiento y análisis con Excel (Power Query) pero también con Python.
 Este código en particular, sólo hace lo siguiente:
